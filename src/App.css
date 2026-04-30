@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__content {
+  text-align: left;
+}
+
+.app__title {
+  margin: 0;
+  font-size: clamp(3rem, 5.2vw, 4.4rem);
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.app__part {
+  white-space: pre;
+}
+
+.app__part--prefix,
+.app__part--suffix {
+  font-size: 0.9em;
+}
+
+.app__part--base {
+  font-weight: 500;
+}
